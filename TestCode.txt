@@ -1,0 +1,31 @@
+setState 312 4b5 678
+printState
+maxNodes 100000
+move up
+move down
+move left
+move right
+end
+randomizeState 20
+end
+solve A-Star h1
+solve A-Star h2
+solve beam 10
+end
+maxNodes 100
+randomizeState 10
+end
+solve A-Star h1
+solve A-Star h2
+solve beam 1
+end
+maxNodes 100000
+randomizeState 35
+end
+solve A-Star h1
+solve A-Star h2
+solve beam 3
+solve beam 2
+maxNodes 1000
+end
+
